@@ -1,0 +1,44 @@
+name: game
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0<3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/app-gif-screen.gif
+    - assets/background.jpg
+    - assets/bcakground2.jpg
+    - assets/monkey.png
+    - assets/monkey1.png
+    - assets/banana.png
+    - assets/images/iterator/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+    - family: RobotoMedium
+      fonts:
+        - asset: assets/fonts/Roboto-Medium.ttf
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/monkey.png"
